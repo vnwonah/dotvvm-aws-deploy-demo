@@ -14,7 +14,7 @@ namespace DOTVVMAWSDeployDemo.ViewModels
 
         public DefaultViewModel()
         {
-            Title = "Hello from DotVVM!";
+            Title = "Hello from DotVVM on AWS!";
         }
     }
 }
