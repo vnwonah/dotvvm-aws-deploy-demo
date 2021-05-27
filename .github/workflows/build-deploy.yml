@@ -42,8 +42,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: credrails-integrator-dev
-        environment_name: credrails-integrator-dev-env
-        region: us-east-2
+        application_name: dotvvm-demo
+        environment_name: dotvvm-demo-env
+        region: us-west-1
         version_label: "${{ steps.version.outputs.time }}"
-        deployment_package: api.zip
+        deployment_package: web.zip
